@@ -1,0 +1,16 @@
+Main use
+Mid-Range
+ Mileage
+30,000 km
+ Horsepower
+134 Hp
+ Battery capacity
+35.8 Kwh
+ Acc 0-100 Km/h
+8.5 sec
+ Range
+200 Km
+ Body type
+Hatchback
+ Top speed
+150 Km/h

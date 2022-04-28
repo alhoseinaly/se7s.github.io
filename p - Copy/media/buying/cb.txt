@@ -1,0 +1,9 @@
+DESCRIPTION
+Year	2022
+Make	Tesla
+Model	Model 3
+Body Style	Sedan
+Version	3 Versions
+Battary Kind	High performance power Ternarry lithium battery
+NEDC	605 km
+Condition	Certified

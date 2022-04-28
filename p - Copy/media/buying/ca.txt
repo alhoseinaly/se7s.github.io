@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>
+        <title>buying section</title>
+
+        <link rel="stylesheet" href="the project .css">
+        <a href="">
+            <p class="f"> SHOW ROOM </p>
+        </a>
+    </header>
+</head>
+
+<body>
+
+    <h1 style="color:  rgb(126, 13, 13);;">Available Right Now </h1>
+    <button href="#" class="change view" id="ch" target="_blank">CHANGE VIEW</button>
+    <div class="content">
+
+        <div class="car">
+
+            <img class="cars" src="C:\Users\alhos\Desktop\p\media\buying\cb1.webp" alt="TESLA MODEL 3 ">
+            <p> TESLA MODEL 3, PRICES START AT EGP 2,540,000.00 </p>
+            <a href="#" class="rent_btn" target="_blank"> see specs and buy</a>
+        </div>
+        <div class="car"> <img class="cars" src="C:\Users\alhos\Desktop\p\media\buying\ca.png" alt="VW ID.6 X “7SEATS”, 5 EDITIONS, PRICES START AT 
+            EGP 850,000.00">
+            <br><br> <br> <br>
+            <p>VVolkswagen ID.6 X Pure, PRICES START AT EGP 920,000.00 </p>
+            <a href="#" class="rent_btn" target="_blank"> see specs and buy</a>
+        </div>
+        <div class="car">
+            <img class="cars" src="C:\Users\alhos\Desktop\p\media\buying\cc1.png"
+                alt=" BMW IX3, 2 EDITIONS, PRICES START AT EGP 1,540,000.00">
+            <br>
+            <p> BMW IX3, 2 EDITIONS, PRICES START AT EGP 1,540,000.00</p>
+
+            <a href="#" class="rent_btn" target="_blank"> see specs and buy</a>
+        </div>
+
+        <!-- <br>  -->
+
+    </div>
+    <footer>
+        <a href="https://electrifiedev.com/en-US/used" target="blank">
+            <p class="f"> See similiar websites </p>
+        </a>
+        <a href="">
+            <p class="f">Contact us </p>
+        </a>
+        <a href="https://awabmahmod.github.io/awabo.github.io/">
+            <p class="f"> Go back to home page </p>
+        </a>
+    </footer>
+    </table>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    color: #181818;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    color: #758083;
+    width: 100%;
+    background-color: rgb(126, 13, 13);
+    justify-content: flex-start;
+    padding: 10px;
+    display: flex;
+    border-color: aliceblue;
+}
+
+header.heading {
+    font-size: xx-large;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+div.content {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+    width: 99%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    border: 5px solid rgb(126, 13, 13);
+    border-radius: 3%;
+}
+
+div.car {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+    border: 0.25px solid rgb(126, 13, 13);
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 5%;
+    padding: 50px;
+    color: whitesmoke;
+}
+
+img.cars {
+    padding: 5px;
+    max-width: 400px;
+    max-height: 300px;
+    border: 0.1px solid inherit;
+    ;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(126, 13, 13);
+    color: #ddd;
+}
+
+p.f {
+    display: flex;
+    font-size: large;
+    margin: 40px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+div.car:hover {
+
+    background-color: rgb(126, 13, 13);
+    border: inherit;
+    color: #181818;
+    padding: 3px;
+    transition: 0.50s;
+    color: whitesmoke;
+
+}
+
+a.rent_btn {
+    align-self: center;
+    color: whitesmoke;
+    width: 30%;
+    text-decoration: none;
+    background-color: #181818;
+    margin: 3px auto;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+p.price {
+    display: none;
+}
+
+#ch {
+    align-self: center;
+    color: whitesmoke;
+    width: 30%;
+    text-decoration: none;
+    background-color: #181818;
+    margin: 3px auto;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8%;
+    border-color: rgb(126, 13, 13);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+}
+
+#ch:hover {
+    background-color: rgb(126, 13, 13);
+}

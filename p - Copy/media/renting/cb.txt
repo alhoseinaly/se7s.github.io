@@ -1,0 +1,16 @@
+Main use
+                      City car
+ Mileage
+                   50,000 km
+ Horsepower
+                   111 Hp
+ Battery capacity
+                 24 Kwh
+ Acc 0-100 Km/h
+               9.9 sec
+ Range
+                 140 Km
+ Body type
+               Hatchback
+ Top speed
+               140 Km/h

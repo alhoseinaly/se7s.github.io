@@ -1,0 +1,12 @@
+DESCRIPTION
+Year	2022
+Make	BMW
+Model	ix 3
+Body Style	SUV
+Version	2 Versions
+L&W&H	474.6X189.1X168.3 m
+Motor	210 kw/h
+Max Speed	180 km/h
+Battary Kind	High performance power Ternarry lithium battery
+NEDC	500
+Condition	Certified
